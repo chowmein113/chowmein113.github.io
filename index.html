@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Grad Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>New Graduate Software Engineer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Introduce yourself briefly. Talk about your education, interests, and what excites you in the field of software engineering.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <!-- Repeat this block for each project -->
+        <div class="project" id="IST">
+            <h3>Instance Segmentation Tracker Tool</h3>
+            <p>
+                A semi-automatic data-labeling tool used to track instance segmentation 
+                objects across multiple frames in videos. This project uses CVAT and 
+                SAM to create instance segmentations on initial key frames and uses 
+                SAM-Track to track those objects throughout videos to automate labeled 
+                data creation to be used for fine-tuning a Yolo-v8-seg model
+            </p>
+            <h4>Frameworks and Keywords</h4>
+            <ul>
+                <li>PyTorch</li>
+                <li>Flask - Backend</li>
+                <li>gunicorn</li>
+                <li>Full Stack Webtool</li>
+                <li>CVAT</li>
+                <li>Docker</li>
+                <li>SAM-Track</li>
+            </ul>
+            <a class="project-link" href="https://github.com/chowmein113/roar-seg-and-track-anything">View Project</a>
+        </div>
+        <div class="project" id="nerf-project">
+            <h3>Neural Radiance Field</h3>
+            <p>
+                A deep learning model used to create high visual fidelity 3D 
+                scenes from any angle given a set of images
+            </p>
+            <h4>Frameworks and Keywords</h4>
+            <ul>
+                <li>PyTorch</li>
+                <li>Multi-Layer Perceptron</li>
+                <li>Deep Learning</li>
+            </ul>
+            <a class="project-link" href="https://github.com/chowmein113/NeRF">View Project</a>
+        </div>
+        <div class="project" id ="shoptimum">
+            <h3>Shoptimum</h3>
+            <p>
+                A Full Stack web/desktop application that automates the shopping process 
+                for users by searching for the "best" product a user searches for across 
+                multiple websites
+            </p>
+            <h4>Frameworks and Keywords</h4>
+            <ul>
+                <li>Flask - Backend</li>
+                <li>Javascript, HTML, & CSS - Frontend</li>
+                <li>Electron JS</li>
+                <li>Flask - Backend</li>
+                <li>Selenium Webscraping</li>
+            </ul>
+            <a class="project-link" href="https://github.com/ekberndt/Shoptimum-Product-Recommendation">View Project</a>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your.email@example.com</p>
+    </section>
+
+    <footer>
+        <p>© 2023 Your Name</p>
+    </footer>
+</body>
+</html>
